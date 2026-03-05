@@ -1,5 +1,5 @@
 const LOCAL_BASE_URL = "http://localhost:8080/api/animales";
-const PROD_BASE_URL = "https://YOUR-VERCEL-PROJECT.vercel.app/api/animales";
+const PROD_BASE_URL = "https://patrones-arquitectonicos-y-de-diseno.onrender.com/api/animales";
 const BASE_URL = (window.ZOO_API_BASE_URL && window.ZOO_API_BASE_URL.trim())
   || ((window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1")
     ? LOCAL_BASE_URL
